@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, #28a745, #a0d468);
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 1rem 2rem;
+}
+
+.navbar .offcanvas-header {
+    background: #28a745;
+    color: white;
+}
+
+.header__about {
+    padding-top: 6rem;
+}
+
+.header__essential {
+    margin: 1rem auto;
+    padding: 1rem;
+    color: white;
+    border: 2px solid white;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.header__essential:hover {
+    background: white;
+    color: #28a745;
+}
+
+.header__chart-text {
+    padding-top: 6rem;
+}
+
+.sectionWord {
+    display: none;
+    padding: 3rem 0;
+}
+
+.sectionWord.active {
+    display: block;
+}
+
+.header__span {
+    margin: 1rem auto;
+    padding: 1rem;
+    color: white;
+    border: 2px solid white;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.header__span:hover {
+    background: white;
+    color: #28a745;
+}
+
+.sectionAbout {
+    display: none;
+}
+
+.sectionAbout.active {
+    display: block;
+}
+
+.select__unit {
+    margin: 2rem 0;
+}
+
+.select__unit .form-select {
+    font-size: 1rem;
+    border: 2px solid white;
+    background: #28a745;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.select__unit .form-select:focus {
+    background: white;
+    color: #28a745;
+}
+
+.sectionMainCss {
+    margin-top: 2rem;
+}
+
+.section__answer {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.micra_text {
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.texts p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.buttonBtn {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .header__essential,
+    .header__span {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
